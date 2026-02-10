@@ -42,8 +42,8 @@ def test_addition(a, b, expected):
         "subtracts floating point numbers",
     ],
 )
-def test_substraction(a, b, expected):
-    assert Operations.substraction(a, b) == expected
+def test_subtraction(a, b, expected):
+    assert Operations.subtraction(a, b) == expected
 
 
 @pytest.mark.parametrize(
