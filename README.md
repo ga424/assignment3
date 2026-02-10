@@ -204,6 +204,12 @@ docker run -it --rm <image-name>
 python main.py
 ```
 
+Or run the calculator module directly:
+
+```bash
+python -m app.calculator
+```
+
 (or update this if the main script is different.)
 
 - **With Docker**:
@@ -227,6 +233,26 @@ git push origin main
 Then submit the GitHub repository link as instructed.
 
 ---
+
+# ✅ 8. Running Tests
+
+Run the full test suite:
+
+```bash
+pytest
+```
+
+If you see an error about missing `pytest-cov`, install it:
+
+```bash
+pip install pytest-cov
+```
+
+Or run tests without the coverage config:
+
+```bash
+pytest -c /dev/null tests
+```
 
 # 🔥 Useful Commands Cheat Sheet
 
